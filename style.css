@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.header-left {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.header-right li {
+    list-style-type: none;
+    padding: 0px 16px;
+    font-size: 15px;
+    color: #e5e7eb;
+}
+
+/* .hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 50px 100px;
+}
+
+.hero-right {
+    background-color: gray;
+    max-width: 50%;
+}
+
+.hero-left {
+    /* padding-right: 15px; */
+}
+
+ul {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: white;
+} */
