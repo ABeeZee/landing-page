@@ -162,3 +162,13 @@ h4 {
     border-style: solid;
     border-color: white;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 10px 0;
+    font-size: 14px;
+}
