@@ -59,8 +59,11 @@ h1 {
 button {
     background-color: #3882f6;
     color: white;
-    border: 0;
     padding: 7px 18px;
+}
+
+.hero-left button {
+    border: 0;
 }
 
 .content {
@@ -124,4 +127,38 @@ h3 {
     font-weight: bold;
     align-self: flex-end;
     max-width: 900px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.popup {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px 145px;
+}
+
+.popup-left {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.popup-left p {
+    margin: 3px 0px;
+}
+
+.popup button {
+    border-style: solid;
+    border-color: white;
 }
