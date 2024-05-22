@@ -100,3 +100,28 @@ h2 {
     text-align: center;
     text-wrap: wrap;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    text-wrap: wrap;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 900px;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.quote p {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+    max-width: 900px;
+}
