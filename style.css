@@ -50,7 +50,7 @@ ul {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: white;
     margin: 0;
     line-height: 1;
@@ -61,4 +61,42 @@ button {
     color: white;
     border: 0;
     padding: 7px 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chunk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: #3882f6;
+}
+
+.text {
+    text-align: center;
+    text-wrap: wrap;
 }
